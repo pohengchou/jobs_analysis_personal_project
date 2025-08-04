@@ -7,7 +7,7 @@ import os
 import ast
 
 #先F12開啟開發者模式，確認參數
-keywords_list = ["數據分析", "數據工程", "數據科學"]
+keywords_list = ["數據分析", "數據工程", "數據科學","資料分析", "資料工程", "資料科學","BI"]
 
 url="https://www.104.com.tw/jobs/search/api/jobs"
 

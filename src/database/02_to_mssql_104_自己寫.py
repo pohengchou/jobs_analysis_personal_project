@@ -17,7 +17,7 @@ params=urllib.parse.quote_plus(
 engine=create_engine(f"mssql+pyodbc:///?odbc_connect={params}")
 
 #步驟4:匯入資料
-df=pd.read_csv("data/104_rawdata_2025-07-18.csv") 
+df=pd.read_csv("data/104_rawdata_2025-08-04.csv") 
 
-df.to_sql("104_rawdata_2025-07-18",con=engine,if_exists="replace",index=False)  #這邊的"104_rawdata_2025-07-08"是想在資料庫顯示的名稱
+df.to_sql("104_rawdata_2025-08-04",con=engine,if_exists="replace",index=False)  #這邊的"104_rawdata_2025-07-08"是想在資料庫顯示的名稱
 print("🟢匯入完成!")

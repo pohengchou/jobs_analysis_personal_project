@@ -1,3 +1,4 @@
+USE 數據分析職缺_專題
 SELECT
 	appearDate AS 上架日期,
 	applyCnt AS 申請人數,
@@ -17,10 +18,9 @@ SELECT
 	salaryLow AS 薪資下限,
 	d3 AS 工作時段,
 	jobCat as 職務分類代碼,
-	isActivelyHiring AS 是否積極徵才,
 	condition AS 條件要求,
 	welfare AS 福利制度,
 	employees AS 員工人數,
 	search_keyword AS 搜尋關鍵字
-INTO [104_cleaned_2025-07-18]
-FROM [104_rawdata_2025-07-18];
+INTO [104_cleaned_2025-08-04]
+FROM [104_rawdata_2025-08-04];
